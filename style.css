@@ -1,0 +1,217 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #506271;
+}
+
+* {
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar {
+    width: 100vw;
+    height: 6rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00CC00;
+}
+
+.logo img {
+    width: 6rem;
+}
+
+.submit {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width: 5rem;
+    height: 2.3rem;
+    margin-left: 1rem;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+}
+
+.submit:active {
+    background-color: rgb(44, 43, 43);
+}
+
+input[type="search"] {
+    width: 18rem;
+    height: 2.5rem;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back img {
+    display: flex;
+    margin: auto;
+    width: 80vw;
+    height: 35rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 14px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: #fff;
+}
+
+.moviesbox {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: space-around;
+}
+
+.box1 {
+    display: grid;
+    align-content: space-between;
+    width: 25rem;
+    height: 38rem;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 4rem;
+}
+
+.box1 a {
+    color: #000;
+}
+
+.box1 img {
+    width: 25rem;
+    height: 30rem;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.movieheading {
+    text-align: center;
+}
+
+.starts {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar2 {
+    display: none;
+}
+
+.links2 {
+    display: none;
+}
+
+.submit2 {
+    display: none;
+}
+
+.boxbtns {
+    display: none;
+}
+
+/* media queries for responsive design */
+@media screen and (max-width:1030px) {
+    .navbar {
+        display: none;
+    }
+
+    .navbar2 {
+        display: flex;
+        justify-content: space-around;
+        background-color: #00CC00;
+        width: 100vw;
+        height: 4rem;
+        align-items: center;
+    }
+
+    .logo2 img {
+        display: flex;
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .navbarphonebox {
+        display: grid;
+        width: 100vw;
+        height: 0rem;
+        background-color: #78f578;
+        justify-content: space-around;
+        align-items: space-around;
+        transition: 1000ms ease-out;
+        overflow: hidden;
+    }
+
+    .links2 {
+        display: flex;
+    }
+
+    .submit2 {
+        display: grid;
+    }
+
+    .boxbtns {
+        display: grid;
+    }
+
+    input[type="search"] {
+        width: 12rem;
+    }
+
+    .submit2 {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        width: 5rem;
+        height: 2rem;
+        margin-left: 1rem;
+        border-radius: 8px;
+        border: none;
+        cursor: pointer;
+        background-color: #000;
+        color: #fff;
+        margin: auto;
+    }
+
+    .back img {
+        margin-top: 0rem;
+        border-radius: 0px;
+        width: 100vw;
+        height: 14rem;
+    }
+
+    .moviesbox {
+        grid-template-columns: auto;
+        justify-content: space-around;
+    }
+
+    .box1 {
+        height: 40rem;
+        width: 89vw;
+    }
+
+    .box1 img {
+        height: 30rem;
+        width: 89vw;
+
+    }
+
+}
