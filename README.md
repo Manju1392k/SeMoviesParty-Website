@@ -2,6 +2,8 @@
 
 SeMovie's Party is sample Website 
 
+---
+
 # Preview of SeMovie's Party Website
 
 https://user-images.githubusercontent.com/66934377/156912140-de03f567-94c5-4aed-9650-ac25add5ef1a.mp4
